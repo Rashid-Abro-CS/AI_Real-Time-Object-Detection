@@ -1,0 +1,2 @@
+# MediaPipe hand landmark support (recommended Python 3.11/3.12)
+mediapipe>=0.10.14,<0.11

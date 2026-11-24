@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model weights downloaded at runtime (keep bundled Open Images model only)
+yolov8n.pt
+yolov8n-pose.pt
+
+# Local generated output and data
+results/*.pdf
+*.log
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

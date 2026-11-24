@@ -1,0 +1,15 @@
+# GUI-capable OpenCV is required for the camera preview (do not install headless alongside it).
+opencv-python>=4.9.0
+ultralytics>=8.2.0
+torch>=2.2.0
+torchvision>=0.17.0
+pymongo>=4.6.0
+streamlit>=1.39.0
+pandas>=2.2.0
+numpy>=1.26.0
+Pillow>=10.2.0
+reportlab>=4.0.0
+python-dotenv>=1.0.0
+
+# Optional hand landmarks. Install on supported Python versions:
+# pip install -r requirements-hands.txt
